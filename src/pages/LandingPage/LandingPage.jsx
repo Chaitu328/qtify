@@ -8,14 +8,12 @@ import { useState } from "react";
 import styles from "./LandingPage.module.css";
 import { Toaster } from "react-hot-toast";
 import { errorHandler } from "../../config/helper-methods";
-import { accordionData } from "../../config/helper-config";
 import HeroSection from "../../components/HeroSection/HeroSection.jsx";
 import NavBar from "../../components/NavBar/NavBar.jsx";
 import Section from "../../components/Section/Section.jsx";
 import FilterTabs from "../../components/FilterTabs/FilterTabs.jsx";
-import CustomAccordion from "../../components/Accordion/CustomAccordion.jsx";
 import SearchBar from "../../components/SearchBar/SearchBar.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
+
 
 //Accordion Data.(Sending as a props).
 
