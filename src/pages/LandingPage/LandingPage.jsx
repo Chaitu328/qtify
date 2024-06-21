@@ -117,19 +117,8 @@ function LandingPage() {
 				</div>
 				<FilterTabs data={allSongsData} loadingState={loadingState.allSongs} />
 			</div>
-			<hr className={styles.line}></hr>
-			<div className={styles.customAccordionWrapper}>
-				<h1 className={styles.accordionHeader}>FAQs</h1>
-
-				{accordionData?.length ? (
-					accordionData.map((each, index) => {
-						return <CustomAccordion key={index} data={each} />;
-					})
-				) : (
-					<></>
-				)}
-			</div>
-			<Footer />
+			
+			
 		</>
 	);
 }
