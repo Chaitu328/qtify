@@ -1,0 +1,354 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "projectRoot": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment",
+    "projectName": "assessment",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "baseUrl": null,
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment",
+    "fixturesFolder": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 63335,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "20.9.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "126",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "126.0.6478.62"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Firefox",
+        "family": "firefox",
+        "majorVersion": "127",
+        "name": "firefox",
+        "path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+        "version": "127.0.1"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "126",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "126.0.2592.61"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\chait\\AppData\\Local\\Cypress\\Cache\\13.12.0\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.12.0",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.12.0",
+  "endedTestsAt": "2024-06-21T06:38:31.811Z",
+  "osName": "win32",
+  "osVersion": "10.0.22631",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 4,
+        "tests": 11,
+        "passes": 8,
+        "pending": 0,
+        "failures": 3,
+        "start": "2024-06-21T06:38:11.709Z",
+        "end": "2024-06-21T06:38:31.827Z",
+        "duration": 20118
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Hero Section Tests -- should find the parent element with 100 Thousand Songs, ad-free text (case-insensitive) and an image (failed).png",
+          "takenAt": "2024-06-21T06:38:21.291Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Hero Section Tests -- should check the background color of the parent element (failed).png",
+          "takenAt": "2024-06-21T06:38:25.769Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\chait\\Downloads\\L-square-QTify-main\\L-square-QTify-main\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Cards Tests -- should match the count of top, and new album cards with their respective API responses (failed).png",
+          "takenAt": "2024-06-21T06:38:31.656Z",
+          "width": 1280
+        }
+      ],
+      "spec": {
+        "absolute": "C:/Users/chait/Downloads/L-square-QTify-main/L-square-QTify-main/qtify/assessment/cypress/e2e/spec.cy.js",
+        "fileExtension": ".js",
+        "fileName": "spec",
+        "name": "spec.cy.js",
+        "relative": "cypress\\e2e\\spec.cy.js"
+      },
+      "stats": {
+        "duration": 20116,
+        "endedAt": "2024-06-21T06:38:31.811Z",
+        "failures": 3,
+        "passes": 8,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-06-21T06:38:11.695Z",
+        "suites": 4,
+        "tests": 11
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 843,
+          "state": "passed",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "Should contain logo, search bar, and a button"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 247,
+          "state": "passed",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the logo is vertically centered and has space to its left"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 388,
+          "state": "passed",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check the search bar inside Navbar should contain the placeholder keyword 'search' inside it"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 292,
+          "state": "passed",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the button has a variant of black background"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 243,
+          "state": "passed",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the button's text color is a variant of green"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 246,
+          "state": "passed",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the button has some border-radius"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 256,
+          "state": "passed",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if hovering on the button changes the cursor to a pointer"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 224,
+          "state": "passed",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the button is styled with 'Poppins' font"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find content: '/100 Thousand Songs, ad-free/i' but never did.\n    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:138:11)",
+          "duration": 4458,
+          "state": "failed",
+          "title": [
+            "Qtify Automation",
+            "Hero Section Tests",
+            "should find the parent element with \"100 Thousand Songs, ad-free\" text (case-insensitive) and an image"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find content: '/100 Thousand Songs, ad-free/i' but never did.\n    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:154:11)",
+          "duration": 4344,
+          "state": "failed",
+          "title": [
+            "Qtify Automation",
+            "Hero Section Tests",
+            "should check the background color of the parent element"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `getTopAlbums`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:75625:18)\n    at Object.errByPath (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:75679:10)\n    at checkForXhr (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:135244:84)\n    at <unknown> (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:135270:28)\n    at tryCatcher (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:4315:29)\n    at whenStable (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:143646:68)\n    at <unknown> (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:143587:14)\n    at tryCatcher (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1701:18)\n    at Promise._fulfill (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1645:18)\n    at <unknown> (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:5450:46)\nFrom Your Spec Code:\n    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:183:11)",
+          "duration": 5902,
+          "state": "failed",
+          "title": [
+            "Qtify Automation",
+            "Cards Tests",
+            "should match the count of top, and new album cards with their respective API responses"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2024-06-21T06:38:11.695Z",
+  "totalDuration": 20116,
+  "totalFailed": 3,
+  "totalPassed": 8,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 4,
+  "totalTests": 11
+}
