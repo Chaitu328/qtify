@@ -1,10 +1,19 @@
-.navbar{ 
+.navbar { 
     background-color: var(--color-primary);
     height: 74px;
     width: 100vw;
-    padding: 0px 32px;
+    padding: 0 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 32px; /* Add space to the right of the logo */
+}
+
+.logoWrapper img {
+    margin-left: 32px; /* Add space to the left of the logo */
+}
