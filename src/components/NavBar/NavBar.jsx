@@ -1,28 +1,18 @@
-import React, { useState } from "react";
-import Logo from "../Logo/Logo";
-import styles from "./NavBar.module.css";
-import SearchBar from "../SearchBar/SearchBar";
-import FeedBackModal from "../Modals/FeedBackModal/FeedBackModal";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Logo from "../Logo/Logo"
+import SearchBar from '../SearchBar/SearchBar';
+import Button from '../Button/Button';
+import styles from './NavBar.module.css';
 
-const NavBar = () => {
-
-
-  return (
-    <div className={styles.wrapper}>
-      <nav className={styles.navbar}>
-        <div>
-          <Logo id={styles.logo} />
-        </div>
-        <div className={styles.searchWrapper}>
-          <SearchBar placeholder="Search an album of your choice" />
-        </div>
-        <div className={styles.nav_link}>
-          Feedback
-        </div>
-      </nav>
-      <FeedBackModal/>
-    </div>
-  );
+const Navbar = () => {
+    return (
+        <nav className={styles.navbar}>
+                <Logo />
+            <SearchBar placeholder="Search a song of your choice" />
+            <Button text="Give Feedback" />
+        </nav>
+    );
 };
 
-export default NavBar;
+export default Navbar;

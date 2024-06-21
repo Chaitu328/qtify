@@ -38,7 +38,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "win32",
     "pageLoadTimeout": 60000,
-    "port": 57488,
+    "port": 51564,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -115,7 +115,7 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "13.12.0",
-  "endedTestsAt": "2024-06-21T12:30:39.138Z",
+  "endedTestsAt": "2024-06-21T12:56:20.325Z",
   "osName": "win32",
   "osVersion": "10.0.22631",
   "runs": [
@@ -125,82 +125,68 @@
       "reporterStats": {
         "suites": 4,
         "tests": 11,
-        "passes": 1,
+        "passes": 3,
         "pending": 0,
-        "failures": 10,
-        "start": "2024-06-21T12:30:20.949Z",
-        "end": "2024-06-21T12:30:39.142Z",
-        "duration": 18193
+        "failures": 8,
+        "start": "2024-06-21T12:56:11.596Z",
+        "end": "2024-06-21T12:56:20.336Z",
+        "duration": 8740
       },
       "screenshots": [
         {
           "height": 720,
           "name": null,
           "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Navbar -- Should contain logo, search bar, and a button (failed).png",
-          "takenAt": "2024-06-21T12:30:24.016Z",
+          "takenAt": "2024-06-21T12:56:14.427Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Navbar -- should check if the logo is vertically centered and has space to its left (failed).png",
-          "takenAt": "2024-06-21T12:30:24.746Z",
+          "takenAt": "2024-06-21T12:56:15.192Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Navbar -- should check the search bar inside Navbar should contain the placeholder keyword 'search' inside it (failed).png",
-          "takenAt": "2024-06-21T12:30:25.184Z",
+          "takenAt": "2024-06-21T12:56:15.748Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Navbar -- should check if the button has a variant of black background (failed).png",
-          "takenAt": "2024-06-21T12:30:25.669Z",
+          "takenAt": "2024-06-21T12:56:16.147Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Navbar -- should check if the button's text color is a variant of green (failed).png",
-          "takenAt": "2024-06-21T12:30:26.234Z",
+          "takenAt": "2024-06-21T12:56:16.623Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Navbar -- should check if the button has some border-radius (failed).png",
-          "takenAt": "2024-06-21T12:30:26.942Z",
+          "takenAt": "2024-06-21T12:56:17.153Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Navbar -- should check if hovering on the button changes the cursor to a pointer (failed).png",
-          "takenAt": "2024-06-21T12:30:27.591Z",
+          "takenAt": "2024-06-21T12:56:17.627Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Navbar -- should check if the button is styled with 'Poppins' font (failed).png",
-          "takenAt": "2024-06-21T12:30:28.152Z",
-          "width": 1280
-        },
-        {
-          "height": 720,
-          "name": null,
-          "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Hero Section Tests -- should find the parent element with 100 Thousand Songs, ad-free text (case-insensitive) and an image (failed).png",
-          "takenAt": "2024-06-21T12:30:32.847Z",
-          "width": 1280
-        },
-        {
-          "height": 720,
-          "name": null,
-          "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Hero Section Tests -- should check the background color of the parent element (failed).png",
-          "takenAt": "2024-06-21T12:30:37.307Z",
+          "takenAt": "2024-06-21T12:56:18.195Z",
           "width": 1280
         }
       ],
@@ -212,13 +198,13 @@
         "relative": "cypress\\e2e\\spec.cy.js"
       },
       "stats": {
-        "duration": 18196,
-        "endedAt": "2024-06-21T12:30:39.138Z",
-        "failures": 10,
-        "passes": 1,
+        "duration": 8742,
+        "endedAt": "2024-06-21T12:56:20.325Z",
+        "failures": 8,
+        "passes": 3,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2024-06-21T12:30:20.942Z",
+        "startedAt": "2024-06-21T12:56:11.583Z",
         "suites": 4,
         "tests": 11
       },
@@ -230,7 +216,7 @@
             }
           ],
           "displayError": "Error: Common parent not found\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:35:22)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at Context.eval (webpack:///./cypress/support/commands.js:54:12)",
-          "duration": 1501,
+          "duration": 1382,
           "state": "failed",
           "title": [
             "Qtify Automation",
@@ -245,7 +231,7 @@
             }
           ],
           "displayError": "Error: Common parent not found\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:35:22)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at Context.eval (webpack:///./cypress/support/commands.js:54:12)",
-          "duration": 395,
+          "duration": 558,
           "state": "failed",
           "title": [
             "Qtify Automation",
@@ -275,7 +261,7 @@
             }
           ],
           "displayError": "Error: Common parent not found\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:35:22)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at Context.eval (webpack:///./cypress/support/commands.js:54:12)",
-          "duration": 569,
+          "duration": 425,
           "state": "failed",
           "title": [
             "Qtify Automation",
@@ -290,7 +276,7 @@
             }
           ],
           "displayError": "Error: Common parent not found\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:35:22)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at Context.eval (webpack:///./cypress/support/commands.js:54:12)",
-          "duration": 633,
+          "duration": 496,
           "state": "failed",
           "title": [
             "Qtify Automation",
@@ -305,7 +291,7 @@
             }
           ],
           "displayError": "Error: Common parent not found\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:35:22)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at Context.eval (webpack:///./cypress/support/commands.js:54:12)",
-          "duration": 630,
+          "duration": 477,
           "state": "failed",
           "title": [
             "Qtify Automation",
@@ -320,7 +306,7 @@
             }
           ],
           "displayError": "Error: Common parent not found\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:35:22)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at Context.eval (webpack:///./cypress/support/commands.js:54:12)",
-          "duration": 531,
+          "duration": 538,
           "state": "failed",
           "title": [
             "Qtify Automation",
@@ -335,7 +321,7 @@
             }
           ],
           "displayError": "Error: Common parent not found\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:35:22)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at checkParentForNestedElements (webpack:///./cypress/support/commands.js:50:16)\n    at Context.eval (webpack:///./cypress/support/commands.js:54:12)",
-          "duration": 664,
+          "duration": 535,
           "state": "failed",
           "title": [
             "Qtify Automation",
@@ -346,12 +332,12 @@
         {
           "attempts": [
             {
-              "state": "failed"
+              "state": "passed"
             }
           ],
-          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find content: '/100 Thousand Songs, ad-free/i' but never did.\n    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:138:11)",
-          "duration": 4403,
-          "state": "failed",
+          "displayError": null,
+          "duration": 232,
+          "state": "passed",
           "title": [
             "Qtify Automation",
             "Hero Section Tests",
@@ -361,12 +347,12 @@
         {
           "attempts": [
             {
-              "state": "failed"
+              "state": "passed"
             }
           ],
-          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find content: '/100 Thousand Songs, ad-free/i' but never did.\n    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:154:11)",
-          "duration": 4412,
-          "state": "failed",
+          "displayError": null,
+          "duration": 286,
+          "state": "passed",
           "title": [
             "Qtify Automation",
             "Hero Section Tests",
@@ -380,7 +366,7 @@
             }
           ],
           "displayError": null,
-          "duration": 1583,
+          "duration": 1196,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -392,10 +378,10 @@
       "video": null
     }
   ],
-  "startedTestsAt": "2024-06-21T12:30:20.942Z",
-  "totalDuration": 18196,
-  "totalFailed": 10,
-  "totalPassed": 1,
+  "startedTestsAt": "2024-06-21T12:56:11.583Z",
+  "totalDuration": 8742,
+  "totalFailed": 8,
+  "totalPassed": 3,
   "totalPending": 0,
   "totalSkipped": 0,
   "totalSuites": 4,
