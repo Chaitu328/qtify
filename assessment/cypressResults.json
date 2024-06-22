@@ -38,7 +38,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "win32",
     "pageLoadTimeout": 60000,
-    "port": 52932,
+    "port": 50934,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -76,7 +76,7 @@
         "majorVersion": "126",
         "name": "chrome",
         "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-        "version": "126.0.6478.62"
+        "version": "126.0.6478.114"
       },
       {
         "channel": "stable",
@@ -115,7 +115,7 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "13.12.0",
-  "endedTestsAt": "2024-06-21T13:23:19.712Z",
+  "endedTestsAt": "2024-06-22T06:44:59.201Z",
   "osName": "win32",
   "osVersion": "10.0.22631",
   "runs": [
@@ -123,16 +123,24 @@
       "error": null,
       "reporter": "spec",
       "reporterStats": {
-        "suites": 4,
-        "tests": 11,
-        "passes": 11,
+        "suites": 6,
+        "tests": 13,
+        "passes": 12,
         "pending": 0,
-        "failures": 0,
-        "start": "2024-06-21T13:23:12.345Z",
-        "end": "2024-06-21T13:23:19.718Z",
-        "duration": 7373
+        "failures": 1,
+        "start": "2024-06-22T06:44:44.635Z",
+        "end": "2024-06-22T06:44:59.220Z",
+        "duration": 14585
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "F:\\crio\\INTV\\qtify\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Slider functionality tests -- should verify if the first two albums are not visible after clicking the slider's next button 4 times (failed).png",
+          "takenAt": "2024-06-22T06:44:58.825Z",
+          "width": 1280
+        }
+      ],
       "spec": {
         "absolute": "F:/crio/INTV/qtify/assessment/cypress/e2e/spec.cy.js",
         "fileExtension": ".js",
@@ -141,15 +149,15 @@
         "relative": "cypress\\e2e\\spec.cy.js"
       },
       "stats": {
-        "duration": 7373,
-        "endedAt": "2024-06-21T13:23:19.712Z",
-        "failures": 0,
-        "passes": 11,
+        "duration": 14585,
+        "endedAt": "2024-06-22T06:44:59.201Z",
+        "failures": 1,
+        "passes": 12,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2024-06-21T13:23:12.339Z",
-        "suites": 4,
-        "tests": 11
+        "startedAt": "2024-06-22T06:44:44.616Z",
+        "suites": 6,
+        "tests": 13
       },
       "tests": [
         {
@@ -159,7 +167,7 @@
             }
           ],
           "displayError": null,
-          "duration": 1837,
+          "duration": 1993,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -174,7 +182,7 @@
             }
           ],
           "displayError": null,
-          "duration": 237,
+          "duration": 274,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -189,7 +197,7 @@
             }
           ],
           "displayError": null,
-          "duration": 197,
+          "duration": 285,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -204,7 +212,7 @@
             }
           ],
           "displayError": null,
-          "duration": 269,
+          "duration": 367,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -219,7 +227,7 @@
             }
           ],
           "displayError": null,
-          "duration": 320,
+          "duration": 337,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -234,7 +242,7 @@
             }
           ],
           "displayError": null,
-          "duration": 258,
+          "duration": 323,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -249,7 +257,7 @@
             }
           ],
           "displayError": null,
-          "duration": 194,
+          "duration": 358,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -264,7 +272,7 @@
             }
           ],
           "displayError": null,
-          "duration": 269,
+          "duration": 325,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -279,7 +287,7 @@
             }
           ],
           "displayError": null,
-          "duration": 332,
+          "duration": 311,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -294,7 +302,7 @@
             }
           ],
           "displayError": null,
-          "duration": 278,
+          "duration": 433,
           "state": "passed",
           "title": [
             "Qtify Automation",
@@ -309,24 +317,54 @@
             }
           ],
           "displayError": null,
-          "duration": 834,
+          "duration": 1259,
           "state": "passed",
           "title": [
             "Qtify Automation",
             "Cards Tests",
             "should match the count of top, and new album cards with their respective API responses"
           ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 805,
+          "state": "passed",
+          "title": [
+            "Qtify Automation",
+            "Albums Section tests",
+            "should show cards for Top and New Albums and verify the 'Show All' functionality"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:\n\n`<img src=\"https://images.pexels.com/photos/1319799/pexels-photo-1319799.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=1200&amp;w=800\" alt=\"album\">`\n\nis being covered by another element:\n\n`<html lang=\"en\">...</html>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at ensureIsDescendent (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:112445:68)\n    at ensureDescendents (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:112496:5)\n    at ensureDescendentsAndScroll (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:112502:14)\n    at ensureElIsNotCovered (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:112633:5)\n    at runAllChecks (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:112832:52)\n    at retryActionability (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:112869:16)\n    at tryCatcher (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:4315:29)\n    at whenStable (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:143646:68)\n    at <unknown> (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:143587:14)\n    at tryCatcher (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1701:18)\n    at Promise._fulfill (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:1645:18)\n    at <unknown> (https://qtify-black-delta.vercel.app/__cypress/runner/cypress_runner.js:5450:46)\nFrom Your Spec Code:\n    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:280:25)",
+          "duration": 4851,
+          "state": "failed",
+          "title": [
+            "Qtify Automation",
+            "Slider functionality tests",
+            "should verify if the first two albums are not visible after clicking the slider's next button 4 times"
+          ]
         }
       ],
       "video": null
     }
   ],
-  "startedTestsAt": "2024-06-21T13:23:12.339Z",
-  "totalDuration": 7373,
-  "totalFailed": 0,
-  "totalPassed": 11,
+  "startedTestsAt": "2024-06-22T06:44:44.616Z",
+  "totalDuration": 14585,
+  "totalFailed": 1,
+  "totalPassed": 12,
   "totalPending": 0,
   "totalSkipped": 0,
-  "totalSuites": 4,
-  "totalTests": 11
+  "totalSuites": 6,
+  "totalTests": 13
 }
